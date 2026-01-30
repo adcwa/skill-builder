@@ -1,0 +1,21 @@
+{
+  "name": "skill-builder",
+  "title": "My Skill Builder",
+  "description": "Interactive CLI tool to create compliant skills for skills.sh registry",
+  "version": "0.1.0",
+  "author": "skills.sh",
+  "license": "MIT",
+  "runtime": "node",
+  "entry": "index.js",
+  "tags": ["cli", "generator", "ai", "development"],
+  "commands": [
+    {
+      "name": "create",
+      "description": "Create a new skill interactively"
+    },
+    {
+      "name": "validate",
+      "description": "Validate an existing skill structure"
+    }
+  ]
+}
